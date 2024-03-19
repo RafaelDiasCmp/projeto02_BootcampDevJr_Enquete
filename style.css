@@ -124,3 +124,32 @@ input {
     color: white;
 }
 
+.sports {
+    padding: 10px;
+    
+    background-color: #3E5EEF;
+
+    display: flex;
+
+    flex-direction: column;
+}
+
+.simulation {  
+    padding: 10px;
+
+    background-color: #3E5EEF;
+
+    display: flex;
+
+    flex-direction: column;
+}
+
+.estrategy {
+    padding: 10px;
+
+    background-color: #3E5EEF;
+
+    display: flex;
+
+    flex-direction: column;
+}
