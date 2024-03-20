@@ -2,7 +2,7 @@ body {
     
     background-color: #CCCCCC;
 
-    font-family: sans-serif
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 
 }
 
@@ -20,16 +20,45 @@ input {
 
     width: 400px;
 
-    padding: 5px;
+    padding: 7px;
 
     border-radius: 5px;
 
-    box-shadow: none;
+    box-shadow: 0 0 0 0;
+
+    outline: 0;
+
+    border: 0 none;
 
     margin-top: 22px;
     
 }
 
+button {
+    padding: 15px;
+
+    background-color: #1E0C21;
+    
+    color: white;
+
+    margin-top: 10px;
+
+    width: 50%;
+
+    margin-left: auto;
+
+    margin-right: auto;
+
+    cursor: pointer;
+
+    border-radius: 5px;
+
+    outline: 0;
+
+    border: 0 none;
+
+    font-size: 13px;
+}
 
 .container {
    
@@ -37,7 +66,9 @@ input {
     
     border-radius: 0.5rem;
 
-    background-color: #210d24fd;  
+    background-image: linear-gradient(
+        to bottom, #1E0C21, #641F70
+    );  
 
     align-items: center;
     
@@ -56,7 +87,9 @@ input {
 
     flex-direction: column;
 
-    background-color: #641F70;
+    background-image: linear-gradient(
+        to bottom, #641F70, #1E0C21
+    );
 
     width: 90%;
 
@@ -124,27 +157,7 @@ input {
     color: white;
 }
 
-.sports {
-    padding: 10px;
-    
-    background-color: #3E5EEF;
-
-    display: flex;
-
-    flex-direction: column;
-}
-
-.simulation {  
-    padding: 10px;
-
-    background-color: #3E5EEF;
-
-    display: flex;
-
-    flex-direction: column;
-}
-
-.estrategy {
+.sports, .simulation, .estrategy {
     padding: 10px;
 
     background-color: #3E5EEF;
