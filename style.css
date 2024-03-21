@@ -34,8 +34,13 @@ input {
     
 }
 
+.negrito {
+    font-weight: bold;
+    font-size: 12px;
+}
+
 button {
-    padding: 15px;
+    padding: 12px;
 
     background-color: #1E0C21;
     
@@ -43,7 +48,7 @@ button {
 
     margin-top: 10px;
 
-    width: 50%;
+    width: 60%;
 
     margin-left: auto;
 
@@ -57,7 +62,7 @@ button {
 
     border: 0 none;
 
-    font-size: 13px;
+    font-size: 15px;
 }
 
 .container {
@@ -150,19 +155,68 @@ button {
 
     text-align: center;
 
-    justify-content: center;
-
     padding: 20px;
 
     color: white;
 }
 
-.sports, .simulation, .estrategy {
-    padding: 10px;
+.sports {
 
-    background-color: #3E5EEF;
+    padding: 5px;
+
+    background-image: linear-gradient(to bottom, #3D5EEF, #72CDFE);
 
     display: flex;
 
     flex-direction: column;
+
+    font-size: 25px;
+
+    margin-top: 5px;
+
+}
+.simulation{
+
+    padding: 5px;
+
+    background-image: linear-gradient(to bottom, #3D5EEF, #72CDFE);
+
+    display: flex;
+
+    flex-direction: column;
+
+    font-size: 25px;
+
+    margin-top: 5px;
+} 
+
+.estrategy {
+    padding: 5px;
+
+    background-image: linear-gradient(to bottom, #3D5EEF, #72CDFE);
+
+    display: flex;
+
+    flex-direction: column;
+
+    font-size: 25px;
+
+    margin-top: 5px;
+}
+
+.enquete-1 {
+    
+    width: 150px;
+
+    border-radius: 5px;
+
+    padding: 10px;
+
+    background-image: linear-gradient(to bottom, #2637DB, #342988);
+
+    margin: auto;
+
+    margin-left: -5px;
+
+    margin-top: 10px;
 }
