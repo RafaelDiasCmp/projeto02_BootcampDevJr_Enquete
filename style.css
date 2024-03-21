@@ -20,7 +20,7 @@ input {
 
     width: 400px;
 
-    padding: 7px;
+    padding: 0.4rem;
 
     border-radius: 5px;
 
@@ -30,23 +30,25 @@ input {
 
     border: 0 none;
 
-    margin-top: 22px;
+    margin-top: 1.3rem;
+
+    font-size: 1rem;
     
 }
 
 .negrito {
     font-weight: bold;
-    font-size: 14px;
+    font-size: 0.9rem;
 }
 
 button {
-    padding: 12px;
+    padding: 0.7rem;
 
     background-color: #1E0C21;
     
     color: white;
 
-    margin-top: 10px;
+    margin-top: 0.6rem;
 
     width: 60%;
 
@@ -62,7 +64,7 @@ button {
 
     border: 0 none;
 
-    font-size: 15px;
+    font-size: 0.9rem;
 }
 
 .container {
@@ -84,6 +86,7 @@ button {
     justify-content: center;
 
     margin: auto;
+    margin-top: 150px ;
 }
 
 .display-flex {
@@ -99,7 +102,7 @@ button {
     width: 90%;
     border-radius: 10px;
 
-    margin-bottom: 35px;
+    margin-bottom: 2.1rem;
 }
 
 .header {
@@ -107,9 +110,9 @@ button {
     color: #FECD23;
 
     font-weight:550;
-    font-size: 25px;
+    font-size: 1.5rem;
 
-    padding: 15px;
+    padding: 0.9rem;
 
     text-align: center;
 
@@ -119,22 +122,22 @@ button {
     
     color: white;
 
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 200;  
 
     text-align: center;
 
-    margin-bottom: 30px;
+    margin-bottom: 1.8rem;
 }
 
 .subtitle-1 {
    
-    padding: 10px;
+    padding: 0.6rem;
 }
 
 .subtitle-3 {
    
-    padding: 10px;
+    padding: 0.6rem;
 }
 
 .vote {
@@ -143,11 +146,11 @@ button {
 
     text-align: center;
     
-    font-size: 25px;
+    font-size: 1.5rem;
 
     justify-content: center;
 
-    padding: 15px;
+    padding: 0.9rem;
 ;
 }
 
@@ -165,24 +168,9 @@ button {
     align-items: center;
 }
 
-.sports {
+.sports, .simulation, .estrategy {
 
-    padding: 5px;
-
-    background-image: linear-gradient(to bottom, #3D5EEF, #72CDFE);
-
-    display: flex;
-
-    flex-direction: column;
-
-    font-size: 25px;
-
-    margin-top: 5px;
-
-}
-.simulation{
-
-    padding: 5px;
+    padding: 0.1rem;
 
     background-image: linear-gradient(to bottom, #3D5EEF, #72CDFE);
 
@@ -190,64 +178,53 @@ button {
 
     flex-direction: column;
 
-    font-size: 25px;
+    font-size: 1.5rem;
 
-    margin-top: 5px;
-} 
-
-.estrategy {
-    padding: 5px;
-
-    background-image: linear-gradient(to bottom, #3D5EEF, #72CDFE);
-
-    display: flex;
-
-    flex-direction: column;
-
-    font-size: 25px;
-
-    margin-top: 5px;
+    margin-top: 0.3rem;
 }
 
-.enquete-1 {
+.enquete-1, .enquete-2, .enquete-3 {
     
     width: 150px;
 
     border-radius: 5px;
 
-    padding: 10px;
+    padding: 0.6rem;
 
     background-image: linear-gradient(to bottom, #2637DB, #342988);
 
     margin: auto;
-    margin-top: 10px;
-    margin-bottom: 20px;
+    margin-top: 0.6rem;
+    margin-bottom: 1.2rem;
 }
 
-.enquete-2 {
-    
-    width: 150px;
+@media screen and (max-width: 695px){
+        html{
+            font-size: 14px;
+          }
+        
+        .final {
+            flex-direction: column;
+        }
+        .sports, .simulation, .estrategy, .enquete-1, .enquete-2, .enquete-3 {
+            
+            margin: auto;
+            margin-bottom: 13.5px;
+            margin-top: 10px;
+            padding: 10px
+        }
+        .container {
+            width:80%;
+        }
+        input {
+            width: 90%;
+            padding: 10px;
+        }
+        button {
+            width: 70%;
+            padding: 13px;
+            font-size: 15px;
+        }
 
-    border-radius: 5px;
-
-    padding: 10px;
-
-    background-image: linear-gradient(to bottom, #2637DB, #342988);
-
-    margin:auto;
-    margin-top: 10px;
-}
-
-.enquete-3 {
-    
-    width: 150px;
-
-    border-radius: 5px;
-
-    padding: 10px;
-
-    background-image: linear-gradient(to bottom, #2637DB, #342988);
-
-    margin: auto;
-    margin-top: 10px;
+        
 }
