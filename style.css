@@ -67,7 +67,7 @@ button {
 
 .container {
    
-    width: 700px; 
+    width: 695px;
     
     border-radius: 0.5rem;
 
@@ -96,8 +96,7 @@ button {
         to bottom, #641F70, #1E0C21
     );
 
-    width: 90%;
-
+    width: 93%;
     border-radius: 10px;
 
     margin-bottom: 35px;
@@ -218,5 +217,21 @@ button {
 
     margin-left: -5px;
 
+    margin-top: 10px;
+}
+
+.enquete-2 {
+    
+    width: 150px;
+
+    border-radius: 5px;
+
+    padding: 10px;
+
+    background-image: linear-gradient(to bottom, #2637DB, #342988);
+
+    margin: auto;
+
+    margin-left: -30px;
     margin-top: 10px;
 }
